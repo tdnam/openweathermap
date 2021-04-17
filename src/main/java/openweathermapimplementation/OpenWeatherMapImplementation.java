@@ -7,7 +7,7 @@ import java.io.InputStream;
 import java.util.Properties;
 
 import okhttp3.Response;
-import resusableLibrary.Helpers;
+import resusablelibrary.Helpers;
 import serializer.Serializer;
 import structure.CurrentForecastWeather;
 import structure.Daily;

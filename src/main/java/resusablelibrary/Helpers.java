@@ -1,4 +1,4 @@
-package resusableLibrary;
+package resusablelibrary;
 
 import java.time.Instant;
 import java.util.Date;

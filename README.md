@@ -1,1 +1,34 @@
-OpenWeatherMapImplementation
+# OpenWeatherMapImplementation
+
+This repository contains the implementation of OpenWeatherMap
+
+1. Count the number of day with predicted temperature > 20
+2. Count the number of day with predicted weather (i.e: clear sky, raining, etc)
+
+## Requirement
+
+1.  Java 11
+2.  Maven
+3.  Eclipse
+
+## Setup
+
+- Clone the repo: git clone https://github.com/tdnam/openweathermap.git
+- Import the repo into Eclipse
+- Create a config.properties file at root with below structure
+
+       apibase=https://api.openweathermap.org/data/2.5/onecall?
+       apikey=<API_KEY>
+
+       # Sydney lat long
+       lat=-33.8688
+       lon=151.2093
+
+       exclude=minutely,hourly
+       units=metric
+
+       # Weather condition code https://openweathermap.org/weather-conditions.
+       clear.sky=800
+       light.rain=500
+
+- Open main Java file is in org/openweathermap/OpenWeatherImplementation/OpenWeatherImplementation.java and click Run

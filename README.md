@@ -16,7 +16,7 @@ Currently, it utilises this One Call API endpoint https://openweathermap.org/api
 ## Setup
 
 - Clone the repo: git clone https://github.com/tdnam/openweathermap.git
-- Import the repo into Eclipse
+- Import the repo into Eclipse. Make sure you right click to the project in Eclipse, Refresh and Update the Project activate Maven packages installation/import in your local
 - Create a config.properties file at root with below structure
 
        apibase=https://api.openweathermap.org/data/2.5/onecall?

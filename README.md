@@ -1,9 +1,11 @@
 # OpenWeatherMapImplementation
 
-This repository contains the implementation of OpenWeatherMap
+This repository contains the implementation of OpenWeatherMap in Java
 
-1. Count the number of day with predicted temperature > 20
-2. Count the number of day with predicted weather (i.e: clear sky, raining, etc)
+Currently, it utilises this One Call API endpoint https://openweathermap.org/api/one-call-api
+
+1. Count the number of day with predicted temperature > 20 (7 days)
+2. Count the number of day with predicted weather (i.e: clear sky, raining, etc) (7 days)
 
 ## Requirement
 

@@ -1,4 +1,4 @@
-package stucture;
+package structure;
 
 import com.google.gson.annotations.SerializedName;
 
@@ -7,25 +7,25 @@ public class Current {
 	private long sunrise;
 	private long sunset;
 	private float temp;
-	
+
 	@SerializedName(value = "feels_like")
 	private float feelsLike;
-	
+
 	private int pressure;
 	private int humidity;
-	
+
 	@SerializedName(value = "dew_point")
 	private float dewPoint;
 	private float uvi;
 	private int clouds;
 	private int visibility;
-	
+
 	@SerializedName(value = "wind_speed")
 	private float windSpeed;
-	
+
 	@SerializedName(value = "wind_deg")
 	private float winDeg;
-	
+
 	private Weather[] weather;
 
 	public long getDt() {

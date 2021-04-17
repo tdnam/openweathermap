@@ -1,11 +1,11 @@
-package stucture;
+package structure;
 
 public class Weather {
 	private int id;
 	private String main;
 	private String description;
 	private String icon;
-	
+
 	public Weather(int id, String main, String description, String icon) {
 		this.setId(id);
 		this.setMain(main);

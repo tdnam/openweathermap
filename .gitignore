@@ -62,3 +62,4 @@ local.properties
 
 config.properties
 target/*
+/target/

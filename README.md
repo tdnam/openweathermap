@@ -33,6 +33,6 @@ Currently, it utilises this One Call API endpoint https://openweathermap.org/api
        clear.sky=800
        light.rain=500
 
-- Open main Java file is in org/openweathermap/OpenWeatherImplementation/OpenWeatherImplementation.java and click Run
+- Open main Java file is in openweatherimplementation/OpenWeatherImplementation.java and click Run
 
 Notes: If you have any issues with running or setup the project. Please send me an email to tdnam39@gmail.com

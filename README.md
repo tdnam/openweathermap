@@ -33,6 +33,36 @@ Currently, it utilises this One Call API endpoint https://openweathermap.org/api
        clear.sky=800
        light.rain=500
 
-- Open main Java file is in openweatherimplementation/OpenWeatherImplementation.java and click Run
+- Method 1: Open main Java file is in openweatherimplementation/OpenWeatherImplementation.java and click Run
+- Method 2: In Terminal at root, execute</br>
+  ```
+  mvn exec:java -Dexec.mainClass="openweathermapimplementation.OpenWeatherMapImplementation"
+  ```
+
+Results should look as below
+
+```
+Maximum Temperature on Sat Apr 17 11:00:00 AEST 2021 is 17.89
+Maximum Temperature on Sun Apr 18 11:00:00 AEST 2021 is 18.48
+Maximum Temperature on Mon Apr 19 11:00:00 AEST 2021 is 21.14
+Maximum Temperature on Tue Apr 20 11:00:00 AEST 2021 is 22.95
+Maximum Temperature on Wed Apr 21 11:00:00 AEST 2021 is 17.95
+Maximum Temperature on Thu Apr 22 11:00:00 AEST 2021 is 20.2
+Maximum Temperature on Fri Apr 23 11:00:00 AEST 2021 is 18.23
+Maximum Temperature on Sat Apr 24 11:00:00 AEST 2021 is 18.05
+
+The weather on Sat Apr 17 11:00:00 AEST 2021 is light rain
+The weather on Sun Apr 18 11:00:00 AEST 2021 is light rain
+The weather on Mon Apr 19 11:00:00 AEST 2021 is clear sky
+The weather on Tue Apr 20 11:00:00 AEST 2021 is clear sky
+The weather on Wed Apr 21 11:00:00 AEST 2021 is light rain
+The weather on Thu Apr 22 11:00:00 AEST 2021 is clear sky
+The weather on Fri Apr 23 11:00:00 AEST 2021 is clear sky
+The weather on Sat Apr 24 11:00:00 AEST 2021 is light rain
+
+--- FINAL RESULTS ---
+The Number of Days Predicted To Be Above 20 degree: 3
+The Number of Days Predicted to be Sunny/Clear Sky: 4
+```
 
 Notes: If you have any issues with running or setup the project. Please send me an email to tdnam39@gmail.com
